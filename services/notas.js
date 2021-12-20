@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const fetchApi = axios.create({
-  baseURL: "http://localhost:3000/api",
+  baseURL: "https://notesapp-next.netlify.app/api",
 });
 
 export const getNotes = async () => {
